@@ -1,12 +1,15 @@
 # romaji-henkan
 A Java library for converting Japanese text to Latin alphabet (romaji)
 
-Powered by [kuromoji](https://github.com/atilika/kuromoji), some part of code were taken from [moji4j](https://github.com/andree-surya/moji4j). 
+Powered by [kuromoji](https://github.com/atilika/kuromoji), some part of the code were taken from [moji4j](https://github.com/andree-surya/moji4j). 
 
-Usage:
+## Usage:
+
 ```java
-    RomajiHenkan henkan = new RomajiHenkan();
-    henkan.convert("自己紹介の最後に添える挨拶として使う表現"); // jikō shōkai nō saigō ni sōeru aisatsu tōshite tsukau hyōgen
+import com.bernd32.romajihenkan;
+
+RomajiHenkan henkan = new RomajiHenkan();
+henkan.convert("自己紹介の最後に添える挨拶として使う表現"); // jikō shōkai nō saigō ni sōeru aisatsu tōshite tsukau hyōgen
 ```
 ## License
 
