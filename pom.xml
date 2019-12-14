@@ -22,7 +22,7 @@
     <scm>
         <connection>scm:git:git@github.com:bernd32/romaji-henkan.git</connection>
         <url>https://github.com/bernd32/romaji-henkan/tree/master</url>
-      <tag>romaji-henkan-0.0.1</tag>
+      <tag>0.0.1</tag>
   </scm>
     <distributionManagement>
         <snapshotRepository>
@@ -68,6 +68,7 @@
             <plugin>
               <groupId>org.apache.maven.plugins</groupId>
               <artifactId>maven-release-plugin</artifactId>
+              <version>3.0.0-M1</version>
               <configuration>
                 <checkModificationExcludes>
                     <checkModificationExclude>pom.xml</checkModificationExclude>
