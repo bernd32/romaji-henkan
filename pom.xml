@@ -20,7 +20,7 @@
         </license>
     </licenses>
     <scm>
-        <connection>scm:git:git://github.com/bernd32/romaji-henkan.git</connection>
+        <connection>scm:git:git@github.com:bernd32/romaji-henkan.git</connection>
         <url>https://github.com/bernd32/romaji-henkan/tree/master</url>
       <tag>romaji-henkan-0.0.1</tag>
   </scm>
