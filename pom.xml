@@ -22,7 +22,7 @@
     <scm>
         <connection>scm:git:git@github.com:bernd32/romaji-henkan.git</connection>
         <url>https://github.com/bernd32/romaji-henkan/tree/master</url>
-      <tag>0.0.1</tag>
+      <tag>romaji-henkan-0.0.1</tag>
   </scm>
     <distributionManagement>
         <snapshotRepository>
