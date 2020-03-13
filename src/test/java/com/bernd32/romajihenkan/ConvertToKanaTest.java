@@ -39,5 +39,10 @@ public class ConvertToKanaTest {
 		assertEquals("ratte", henkan.convert("ラッテ"));
 		assertEquals("ko nakatta", henkan.convert("来なかった"));
 	}
+	
+	@Test
+	public void test() {
+		System.out.println(henkan.convert("思い通りに行かなくて　プツリ黙りこくる"));
+	}
 
 }

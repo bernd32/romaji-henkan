@@ -72,20 +72,12 @@ public class RomajiHenkan {
     
     private String replaceDashMarkerWithLongVowel(String string) {
     	String resultStr = string; 
-        for (int i = 1; i < string.length(); i++) {
-            char currentCharacter = string.charAt(i);
-            char previousCharacter = string.charAt(i - 1);
-            if (currentCharacter == '-' && isRomanVowel(previousCharacter)) {
-            	switch(previousCharacter) {
-	            	case 'a': resultStr = string.replace("a", "ā");
-	            	case 'i': resultStr = string.replace("i", "ī");
-	            	case 'u': resultStr = string.replace("u", "ū");
-	            	case 'e': resultStr = string.replace("e", "ē");
-	            	case 'o': resultStr = string.replace("o", "ō");
-            	}
-            }
-        }
-    	resultStr = resultStr.replace("-", "");
+    	resultStr = resultStr.replace("a-", "ā");
+    	resultStr = resultStr.replace("i-", "ī");
+    	resultStr = resultStr.replace("u-", "ū");
+    	resultStr = resultStr.replace("e-", "ē");
+    	resultStr = resultStr.replace("o-", "ō");
+
         return resultStr;
     }
 
